@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import newcomponent from './newcomponent';
+import Header from './Header';
+import Footer from './Footer'; 
+import ComponentePrueba from './ComponentePrueba';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Header/>,
+  document.getElementById('header')
+);
+ReactDOM.render(
+  <Footer/>,
+  document.getElementById('footer')
+);
+ReactDOM.render(
+  <ComponentePrueba nombre="Camilo" edad="18" sexo="M"/>,
   document.getElementById('root')
 );
 

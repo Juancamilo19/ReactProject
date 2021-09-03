@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import newcomponent from './newcomponent';
 import Header from './Header';
 import Footer from './Footer'; 
-import ComponentePrueba from './ComponentePrueba';
+import Contenedor from './Contenedor';
 
 ReactDOM.render(
   <Header/>,
@@ -17,7 +17,7 @@ ReactDOM.render(
   document.getElementById('footer')
 );
 ReactDOM.render(
-  <ComponentePrueba nombre="Camilo" edad="18" sexo="M"/>,
+  <Contenedor />,
   document.getElementById('root')
 );
 
